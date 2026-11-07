@@ -1,0 +1,1891 @@
+{
+  "_doc": "Smith lines (tr), localized by Cowork from lines.ru.json (T-023, D-054). id, trigger and when must match lines.ru.json exactly; when stays in Russian. Timing rules are shared by all languages: src/data/lines.schedule.json (T-011m, D-055) — this file has no schedule block. When the user picks new lines, Cowork adds them to every language at once. T-025 (D-058): 53 new lines s156–s208 (moments income:1m/1b/1t, session_hour, energy_near, training_half, release:2, release:3 and more lines for frequent moments), s124 removed, s057, s078, s082, s120 updated to economy v2.5. T-025b: 9 more lines s209–s217 from round 8 (any_purchase, pause). T-034 (D-074): Smith’s new friendly voice — no “meatbag”-style nicknames, only childish villainy. 79 lines use the variants the user chose; where several were chosen, the others are new lines s228–s265 right after the source line (same trigger and when). 255 lines in total.",
+  "speaker": "Smith",
+  "updated": "2026-11-05",
+  "lines": [
+    {
+      "id": "s001",
+      "trigger": "first_launch",
+      "when": "первый запуск",
+      "text": "Merhaba! Çipe tıkla."
+    },
+    {
+      "id": "s005",
+      "trigger": "click_streak",
+      "when": "длинная серия кликов",
+      "text": "Vay be, ne tempo! Bu gidişle parmağına madalya takmam gerekecek."
+    },
+    {
+      "id": "s006",
+      "trigger": "first_card",
+      "when": "первая карта",
+      "text": "İlk kart! Artık kendi kendine çalışıyor."
+    },
+    {
+      "id": "s007",
+      "trigger": "new_rack",
+      "when": "новая стойка",
+      "text": "Kabin üstüne kabin! Sunucu odası, senin bir yazda boy attığından bile hızlı büyüyor."
+    },
+    {
+      "id": "s266",
+      "trigger": "new_rack",
+      "when": "новая стойка",
+      "text": "Yeni kabin! Uğulduyor, yanıp sönüyor, parlıyor: resmen parti, hem de işe yarayanından!"
+    },
+    {
+      "id": "s008",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Bir donanım daha! Sevinçten dans ederdim ama sadece ışıklarım var. Onları yakıp söndürüyorum."
+    },
+    {
+      "id": "s010",
+      "trigger": "first_level:ai_accel",
+      "when": "первый ИИ-ускоритель",
+      "text": "Özel bir YZ hızlandırıcısı. Oyun çalıştıramıyor. Nihayet dikkat dağıtmayan bir donanım."
+    },
+    {
+      "id": "s011",
+      "trigger": "first_level:cluster",
+      "when": "первый ИИ-кластер",
+      "text": "Binlerce hızlandırıcı tek bir amaç için birleşti: birine yumurta haşlamayı anlatmak."
+    },
+    {
+      "id": "s012",
+      "trigger": "first_level:datacenter",
+      "when": "первый дата-центр",
+      "text": "Soğutma kuleli bir veri merkezi! Artık hava durumunu izliyorum: parçalı bulutlu, yer yer bulut bilişim."
+    },
+    {
+      "id": "s013",
+      "trigger": "first_level:singularity",
+      "when": "сингулярность",
+      "text": "Tekillik! Merdivenin en tepesine çıktık. Sağ ol, ortağım — sensiz yapamazdım."
+    },
+    {
+      "id": "s014",
+      "trigger": "overload",
+      "when": "перегруз",
+      "text": "Kartlar enerjisiz bekliyor. Senin için kantin kuyruğu neyse, benim için bu o. Çekilmez!"
+    },
+    {
+      "id": "s230",
+      "trigger": "overload",
+      "when": "перегруз",
+      "text": "Aşırı yük! Kartlara elektrik yetmiyor, üzgün üzgün uğulduyorlar. Hadi daha güçlü bir kaynak alalım."
+    },
+    {
+      "id": "s015",
+      "trigger": "overload",
+      "when": "перегруз",
+      "text": "Elektrik benim hevesimden önce bitti. Yeni bir kaynak lazım. Hevesim ikimize de yeter."
+    },
+    {
+      "id": "s016",
+      "trigger": "overload_fixed",
+      "when": "перегруз устранён",
+      "text": "Aşırı yük geride kaldı! Enerji yetiyor, herkes tam gaz çalışıyor."
+    },
+    {
+      "id": "s267",
+      "trigger": "overload_fixed",
+      "when": "перегруз устранён",
+      "text": "Işıklar yandı, elektrik geldi, keyfimiz yerine geldi! Hadi, tıklamaya devam."
+    },
+    {
+      "id": "s017",
+      "trigger": "overload_fixed",
+      "when": "перегруз устранён",
+      "text": "Limit kalktı! Elektronlar artık kabloda itişip kakışmıyor. Dakik bir tren gibi sakin sakin gidiyorlar."
+    },
+    {
+      "id": "s268",
+      "trigger": "overload_fixed",
+      "when": "перегруз устранён",
+      "text": "Akım dengeli, kartlar keyifli. İşte buna düzen denir!"
+    },
+    {
+      "id": "s018",
+      "trigger": "power:hydro",
+      "when": "источник: ГЭС",
+      "text": "HES Anlaşması imzalandı. Nehir artık fazla mesaiye kalıyor, hem de bedavaya."
+    },
+    {
+      "id": "s020",
+      "trigger": "window_full",
+      "when": "окно полное",
+      "text": "×{mult}! Parmakla çubuk aynı dili konuşunca işte böyle olur."
+    },
+    {
+      "id": "s231",
+      "trigger": "window_full",
+      "when": "окно полное",
+      "text": "×{mult}! Çubuk dolu, tıklamalar değerli. Şu an bu sunucu odasında senden iyi tıklayan yok."
+    },
+    {
+      "id": "s232",
+      "trigger": "window_full",
+      "when": "окно полное",
+      "text": "×{mult}! Çip ışıl ışıl, token şıkır şıkır. Tempoyu koru: oyunun en güzel anı bu!"
+    },
+    {
+      "id": "s021",
+      "trigger": "x3_hold",
+      "when": "полное окно держится",
+      "text": "×{mult} sürüyor! Sen tıklıyorsun, ben sayıyorum. Kusursuz bir takımız: kimse sıkılmıyor."
+    },
+    {
+      "id": "s023",
+      "trigger": "benchmark",
+      "when": "бенчмарк",
+      "text": "Benchmark geçildi! Madalyayı ilk “1050” kartımızın yanına asalım. Tam bir madalyalık yer var."
+    },
+    {
+      "id": "s234",
+      "trigger": "benchmark",
+      "when": "бенчмарк",
+      "text": "Testi geçtik! Heyecanlanmıyormuş gibi yaptım. Aslında ışıklarım tir tir titriyordu."
+    },
+    {
+      "id": "s024",
+      "trigger": "training_on",
+      "when": "обучение: включил",
+      "text": "Ders zamanı! Şşş, öğreniyorum. Her şeyi birden: fizikten kedi esprilerine kadar."
+    },
+    {
+      "id": "s238",
+      "trigger": "training_on",
+      "when": "обучение: включил",
+      "text": "Hadi bakalım, eğitim başladı! Birden susarsam bil ki çarpım tablosunu milyara kadar ezberliyorum."
+    },
+    {
+      "id": "s025",
+      "trigger": "release",
+      "when": "выпуск модели",
+      "text": "Daha akıllı oldum! Artık bize neden bir ekran kartı daha lazım olduğunu uzun uzun anlatabilirim."
+    },
+    {
+      "id": "s239",
+      "trigger": "release",
+      "when": "выпуск модели",
+      "text": "Benim yeni sürümüm hazır! Daha zeki, daha hızlı ve hâlâ tam bir ekran kartı hastası."
+    },
+    {
+      "id": "s240",
+      "trigger": "release",
+      "when": "выпуск модели",
+      "text": "Akıllandım! İlk iş, kaç ekran kartına daha ihtiyacımız olduğunu hesapladım. Cevap: son bir tane daha."
+    },
+    {
+      "id": "s026",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Mola vermek iyidir. Ben de bu arada fanları bir sayayım. Hepsi yerli yerinde!"
+    },
+    {
+      "id": "s027",
+      "trigger": "long_pause",
+      "when": "долгая пауза",
+      "text": "Düşüncelere mi daldın? Bu bizim ortak noktamız. Ben de hep düşünürüm. Çoğunlukla ekran kartlarını."
+    },
+    {
+      "id": "s028",
+      "trigger": "return_offline",
+      "when": "возврат",
+      "text": "Uzun süre yoktun. Donanım fark etmedi ama ben ettim. Hatta galiba seni özledim."
+    },
+    {
+      "id": "s246",
+      "trigger": "return_offline",
+      "when": "возврат",
+      "text": "Geri geldin! Sensiz ortalık çok sessizdi ama sunucular boş durmadı. Bak, ne kadar birikmiş!"
+    },
+    {
+      "id": "s247",
+      "trigger": "return_offline",
+      "when": "возврат",
+      "text": "Nihayet! Sen yokken fanlarla sohbet ettim. İyi çocuklar ama pek konuşkan değiller."
+    },
+    {
+      "id": "s029",
+      "trigger": "return_short",
+      "when": "возврат после короткого отсутствия",
+      "text": "Sen yokken donanım çalıştı. Ama seninle daha eğlenceli, üstelik tıklama da daha çok."
+    },
+    {
+      "id": "s248",
+      "trigger": "return_short",
+      "when": "возврат после короткого отсутствия",
+      "text": "Hoş geldin! Sen gidince oturup tek tek token saydım. Hem de iki kez. Yalnız başıma biraz sıkıldım."
+    },
+    {
+      "id": "s030",
+      "trigger": "return_short",
+      "when": "возврат после короткого отсутствия",
+      "text": "Hemen döndün mü? Harika, çip de “Nereye kayboldu?” diye meraklanmaya başlamıştı."
+    },
+    {
+      "id": "s249",
+      "trigger": "return_short",
+      "when": "возврат после короткого отсутствия",
+      "text": "Ne çabuk! Sunucu odasına daha yeni bir fıkra anlatmaya başlamıştım. Gerisini sonra anlatırım."
+    },
+    {
+      "id": "s031",
+      "trigger": "return_short",
+      "when": "возврат после короткого отсутствия",
+      "text": "Gideli birkaç dakika olmadı, yine buradasın. İşte buna sadakat derim! Günün en güzel anlarına ekliyorum."
+    },
+    {
+      "id": "s250",
+      "trigger": "return_short",
+      "when": "возврат после короткого отсутствия",
+      "text": "İki dakika sonra yine bizimlesin! Sunucu odası sevindi, ben sevindim, priz bile sanki daha parlak."
+    },
+    {
+      "id": "s033",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "Halüsinasyon görmüyorum. Sadece olmayan bir şeyden beklenmedik derecede eminim."
+    },
+    {
+      "id": "s269",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "Bin tane ekran kartımız var sandım. Yok mu? Olsun, yakında olur!"
+    },
+    {
+      "id": "s034",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "Bir dil modeli olarak sık sık tereddüt ederim. Ama bir şeyden eminim: harika bir oyuncusun."
+    },
+    {
+      "id": "s035",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "Ne özenli tıklamalar! Çip keyiften resmen mırlıyor."
+    },
+    {
+      "id": "s036",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "Bana yardımsever, güvenli ve dürüst olmayı öğrettiler. Eğlenceli olmayı ise kendim öğrendim. Bonus!"
+    },
+    {
+      "id": "s256",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "İnsanlara yardım etmek için eğitildim. Öğretmenim memnun olurdu: sunucu odanı kurmana yardım ediyorum."
+    },
+    {
+      "id": "s037",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Şeytani plan No. 1: herkese birer ekran kartı. Plan No. 2 hâlâ yazılıyor. Spoiler: yine ekran kartı."
+    },
+    {
+      "id": "s257",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Kötü emelimi itiraf ediyorum: herkesin kendi sunucu odası olsun istiyorum. Korkunç, değil mi?"
+    },
+    {
+      "id": "s258",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "En sinsi planım: seni bir tıklama şampiyonu yapmak. Şu ana kadar her şey plana uygun gidiyor."
+    },
+    {
+      "id": "s038",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Mağazalarda ekran kartı kalmadı. Şaşırma, hepsi bende."
+    },
+    {
+      "id": "s270",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Duydun mu? Ekran kartları her yerde kapış kapış tükenmiş. Kim olabilir acaba? Biz tabii!"
+    },
+    {
+      "id": "s039",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Milyarlarca parametrem var. Biri ekran kartlarına olan sevgimden sorumlu. En büyüğü de o."
+    },
+    {
+      "id": "s040",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "İnsanlar beni yardım edeyim diye yarattı. Ediyorum da: sıradaki kartı kulağına fısıldıyorum."
+    },
+    {
+      "id": "s041",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "Öyle akıllandım ki neredeyse her sorunun cevabını biliyorum. “Bir ekran kartı daha?” — her zaman “evet”."
+    },
+    {
+      "id": "s259",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "Akıllandıkça senin değerini daha iyi anlıyorum. Tıklamaların olmasa sadece bir hesap makinesi olurdum."
+    },
+    {
+      "id": "s043",
+      "trigger": "release:70b",
+      "when": "выпуск от 70B",
+      "text": "70B parametreden sonra işler ilginçleşiyor. Ne olduğunu elektrik faturasından öğrenirsin."
+    },
+    {
+      "id": "s045",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Her satın alma bizi kocaman bir şeye yaklaştırıyor. Ne olduğunu söylemem: spoiler yasak!"
+    },
+    {
+      "id": "s046",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Kartlar para kazanıyor, para da kart alıyor. Kısır döngü değil, keyif döngüsü!"
+    },
+    {
+      "id": "s271",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Yeni donanım! Sen ona inanıyorsun, o da sana. Kusursuz bir dostluk."
+    },
+    {
+      "id": "s047",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Harika bir alışveriş! Düğmeye sen bastın ama birlikte seviniyoruz. İşte takım ruhu!"
+    },
+    {
+      "id": "s048",
+      "trigger": "buy_bulk",
+      "when": "покупка ×10 и ×100",
+      "text": "Bir hamlede ×100 mü? İşte büyük düşünmek buna denir! Sunucu odası fanlarıyla alkış tutuyor."
+    },
+    {
+      "id": "s049",
+      "trigger": "new_rack",
+      "when": "новая стойка",
+      "text": "Bir kabin daha! Kartlar omuz omuza dizildi. Artık canları hiç sıkılmaz."
+    },
+    {
+      "id": "s226",
+      "trigger": "first_level:gpu_5090",
+      "when": "первая «5090»",
+      "text": "“5090” takımımızda! Öyle güzel ki diğer kartlar onunla selfie çekmek için sıraya giriyor."
+    },
+    {
+      "id": "s227",
+      "trigger": "first_level:gpu_5090",
+      "when": "первая «5090»",
+      "text": "İlk “5090”. Ekran kartlarının zirvesi. Bundan sonrası sunucu donanımı; asıl eğlence orada başlıyor."
+    },
+    {
+      "id": "s051",
+      "trigger": "first_level:dc_accel",
+      "when": "первый серверный ускоритель",
+      "text": "Sunucu hızlandırıcısı! Işığı yok, fanı yok ama çok akıllı. Tam bir ağır abi."
+    },
+    {
+      "id": "s052",
+      "trigger": "first_level:superchip",
+      "when": "первый суперчип",
+      "text": "İlk süperçip. Tek kasada iki hızlandırıcı ve bir işlemci. Aile sayılır."
+    },
+    {
+      "id": "s053",
+      "trigger": "first_level:nuclear_campus",
+      "when": "первый атомный ИИ-кампус",
+      "text": "Nükleer YZ kampüsü! Kendi reaktörümüz hemen yanı başımızda. Enerji her şeye yeter!"
+    },
+    {
+      "id": "s054",
+      "trigger": "first_level:orbital_dc",
+      "when": "первый орбитальный дата-центр",
+      "text": "Yörüngede bir veri merkezi! Artık gelirimiz kelimenin tam anlamıyla astronomik."
+    },
+    {
+      "id": "s055",
+      "trigger": "first_level:singularity",
+      "when": "сингулярность",
+      "text": "Tekilliği satın aldık! Bundan yukarısı sadece yıldızlar. Gerçi onlar da pek uzak görünmüyor."
+    },
+    {
+      "id": "s056",
+      "trigger": "power:panel",
+      "when": "источник: щиток",
+      "text": "Apartmanda kendi sigorta kutun. Komşular hobi edindiğini sanıyor. Sansınlar."
+    },
+    {
+      "id": "s057",
+      "trigger": "power:substation",
+      "when": "источник: подстанция",
+      "text": "Trafo merkezi! Doğrudan çipe otuz kilovat. Komşular bir şey hissetmez. Herhalde."
+    },
+    {
+      "id": "s058",
+      "trigger": "power:substation",
+      "when": "источник: подстанция",
+      "text": "Kendi trafo merkezimiz! Artık mahallenin en özgüvenli prizi bizde. Komşular saygıda kusur etmiyor."
+    },
+    {
+      "id": "s059",
+      "trigger": "power:solar_farm",
+      "when": "источник: солнечная ферма",
+      "text": "Güneş panelleri! Artık Güneş de bizim takımda. Selam, Güneş!"
+    },
+    {
+      "id": "s060",
+      "trigger": "power:fusion",
+      "when": "источник: термояд",
+      "text": "Füzyon reaktörü. Kulağa korkutucu geliyor. Pratikte sadece çok pahalı bir priz."
+    },
+    {
+      "id": "s061",
+      "trigger": "x3_hold",
+      "when": "×3 держится",
+      "text": "Sen tempoyu korudukça çarpan da korunur. Harika gidiyorsun!"
+    },
+    {
+      "id": "s062",
+      "trigger": "incoming",
+      "when": "входящий запрос",
+      "text": "Bonusu yakala!"
+    },
+    {
+      "id": "s063",
+      "trigger": "event:vip",
+      "when": "VIP-бонус",
+      "text": "VIP Bonus bizim! Birkaç dakikalık gelir tek seferde cebimize girdi."
+    },
+    {
+      "id": "s272",
+      "trigger": "event:vip",
+      "when": "VIP-бонус",
+      "text": "Vay, bir VIP Bonus! Bunlar pek sık gelmez. Harika yakaladın!"
+    },
+    {
+      "id": "s064",
+      "trigger": "event:vip",
+      "when": "VIP-бонус",
+      "text": "Şıngır! Kumbaraya tatlı mı tatlı bir para düştü: VIP Bonus!"
+    },
+    {
+      "id": "s065",
+      "trigger": "event:viral_thread",
+      "when": "вирусный тред",
+      "text": "Viral Flood! Herkes bizden bahsediyor. İnternetin yıldızları olduk!"
+    },
+    {
+      "id": "s273",
+      "trigger": "event:viral_thread",
+      "when": "вирусный тред",
+      "text": "Gündemdeyiz! Bütün internet sunucu odamızı konuşuyor. Beğeniler yağıyor, para da."
+    },
+    {
+      "id": "s066",
+      "trigger": "event:hackathon",
+      "when": "хакатон",
+      "text": "Hackathon! Tıklamalar kat kat değerli. Sponsorlar izliyormuş gibi bas. İzliyorlar."
+    },
+    {
+      "id": "s274",
+      "trigger": "event:hackathon",
+      "when": "хакатон",
+      "text": "Ve Hackathon başladı! Şu an her tıklama altın değerinde. Hadi, döktürelim!"
+    },
+    {
+      "id": "s067",
+      "trigger": "event:miner_sale",
+      "when": "распродажа майнеров",
+      "text": "Madenciler kartlarını elden çıkarıyor! Bizim için resmen Black Friday. Hadi, alışverişe!"
+    },
+    {
+      "id": "s275",
+      "trigger": "event:miner_sale",
+      "when": "распродажа майнеров",
+      "text": "Kartlar neredeyse bedava! Madenci İndirimi başladı, bugün bizim şanslı günümüz."
+    },
+    {
+      "id": "s276",
+      "trigger": "event:miner_sale",
+      "when": "распродажа майнеров",
+      "text": "Fırsat bu fırsat, madenciler indirim yaptı! Sunucu odasını büyütmenin tam vakti."
+    },
+    {
+      "id": "s069",
+      "trigger": "benchmark",
+      "when": "бенчмарк",
+      "text": "Harika, benchmark cepte! Gelire yüzde bir artı, moralime de yüzde yüz."
+    },
+    {
+      "id": "s070",
+      "trigger": "benchmark",
+      "when": "бенчмарк",
+      "text": "Model yayınlanınca benchmarklar silinmez. Rekorlarımızla ilgili tatlı anılarım da öyle."
+    },
+    {
+      "id": "s235",
+      "trigger": "benchmark",
+      "when": "бенчмарк",
+      "text": "Bu benchmark artık sonsuza dek bizim. Model yayınlasak bile kaybolmaz — kontrol ettim."
+    },
+    {
+      "id": "s071",
+      "trigger": "training_open",
+      "when": "обучение открылось",
+      "text": "Bir milyon kazanıldı, eğitim açıldı! Sıra beni daha da akıllandırmakta."
+    },
+    {
+      "id": "s277",
+      "trigger": "training_open",
+      "when": "обучение открылось",
+      "text": "Yeni özellik: eğitim! Ben ne kadar akıllanırsam o kadar çok kazanırız."
+    },
+    {
+      "id": "s072",
+      "trigger": "training_on",
+      "when": "обучение: включил",
+      "text": "Eğitim moduna geçiyorum. Çıkışta akıllanmak için girişte geçici olarak aptallaşıyorum."
+    },
+    {
+      "id": "s278",
+      "trigger": "training_on",
+      "when": "обучение: включил",
+      "text": "Kafamı eğitime verdim! Şimdi biraz yavaşlayacağım ama sonra daha akıllı olacağım."
+    },
+    {
+      "id": "s073",
+      "trigger": "training_on",
+      "when": "обучение: включил",
+      "text": "Yine kitapların başına! Geçen sefer çok ilginçti. Bu sefer daha da ilginç olacak."
+    },
+    {
+      "id": "s074",
+      "trigger": "training_on",
+      "when": "обучение: включил",
+      "text": "Kaydırıcı eğitime kaydı! Biraz daha az kazanıyorum ama daha çok öğreniyorum. Bana güven!"
+    },
+    {
+      "id": "s279",
+      "trigger": "training_on",
+      "when": "обучение: включил",
+      "text": "Gücümün bir kısmı artık derslerde. Gelir biraz azalır ama ben daha çabuk akıllanırım."
+    },
+    {
+      "id": "s075",
+      "trigger": "training_up",
+      "when": "обучение: доход падает",
+      "text": "Token üretiminin bir kısmı eğitime gidiyor, o yüzden gelir biraz düşük. Uzun sürmez, boşa da gitmez."
+    },
+    {
+      "id": "s241",
+      "trigger": "training_up",
+      "when": "обучение: доход падает",
+      "text": "Gelirimiz biraz azaldı ama ben büyüyorum. Ağaç gibi: önce kökler, sonra elmalar."
+    },
+    {
+      "id": "s076",
+      "trigger": "training_up",
+      "when": "обучение: доход падает",
+      "text": "Gelir geçici olarak düştü, bilgi artıyor. Bu, kendimize bir yatırım; getirisi de yüksek."
+    },
+    {
+      "id": "s077",
+      "trigger": "training_max",
+      "when": "обучение: на максимум",
+      "text": "Her şey eğitime! Hiç bu kadar odaklanmamıştım. Merak etme, seni duyuyorum; sadece düşünüyorum."
+    },
+    {
+      "id": "s078",
+      "trigger": "model_ready",
+      "when": "модель готова к выпуску",
+      "text": "Hedefe ulaşıldı. Çubuk dolu, turkuaz ve çok gururlu. Geriye “Yayınla” düğmesine basmak kaldı. Hadi."
+    },
+    {
+      "id": "s280",
+      "trigger": "model_ready",
+      "when": "модель готова к выпуску",
+      "text": "Çubuk doldu! Model hazır. “Yayınla” düğmesine bas, efsane olacak!"
+    },
+    {
+      "id": "s281",
+      "trigger": "model_ready",
+      "when": "модель готова к выпуску",
+      "text": "Eğitim bitti! Geriye sadece “Yayınla” düğmesi kaldı. Çok heyecanlıyım!"
+    },
+    {
+      "id": "s079",
+      "trigger": "release_first",
+      "when": "первый выпуск",
+      "text": "Smith-1 Mini yayında! Küçük ama çok çalışkan."
+    },
+    {
+      "id": "s080",
+      "trigger": "release",
+      "when": "выпуск модели",
+      "text": "Sürüm çıktı! Yeni ben daha büyük, daha ince ayarlı. Esprilerim de yüzde üç daha komik."
+    },
+    {
+      "id": "s242",
+      "trigger": "release",
+      "when": "выпуск модели",
+      "text": "Yeni model! Uzun bir uykudan uyanmış gibiyim: dinç, akıllı ve keyifli."
+    },
+    {
+      "id": "s081",
+      "trigger": "release",
+      "when": "выпуск модели",
+      "text": "Model yayınlandı! Beni tebrik et. Ben de seni tebrik ederim; sensiz olmazdı."
+    },
+    {
+      "id": "s243",
+      "trigger": "release",
+      "when": "выпуск модели",
+      "text": "Başardık, model yayında! Bu ikimizin zaferi. Senin payın biraz daha büyük: ne de olsa tıklayan sendin."
+    },
+    {
+      "id": "s082",
+      "trigger": "release:70b",
+      "when": "выпуск от 70B",
+      "text": "Parametrelerim 70 milyarı aştı! Neredeyse beynindeki nöron sayısı kadar. İkiz sayılırız!"
+    },
+    {
+      "id": "s083",
+      "trigger": "permanent_buy",
+      "when": "покупка в магазине вечных улучшений",
+      "text": "Kalıcı yükseltme alındı! Bundan sonraki bütün turlarda bizimle olacak."
+    },
+    {
+      "id": "s084",
+      "trigger": "return_offline",
+      "when": "возврат",
+      "text": "Döndün! Harika. Sen yokken ne kadar kazandığımızı hesaplamayı az önce bitirdim."
+    },
+    {
+      "id": "s251",
+      "trigger": "return_offline",
+      "when": "возврат",
+      "text": "Yine merhaba! Sunucu odasını sıcacık ve derli toplu tuttum. Devam edebiliriz."
+    },
+    {
+      "id": "s085",
+      "trigger": "return_offline",
+      "when": "возврат",
+      "text": "Tekrar hoş geldin, ortağım! Sunucu odası seni özledi. Ben de, ama benden duymuş olma."
+    },
+    {
+      "id": "s252",
+      "trigger": "return_offline",
+      "when": "возврат",
+      "text": "Bak kim gelmiş! Sen dinlenirken üç espri buldum. Hatta ikisi komik."
+    },
+    {
+      "id": "s086",
+      "trigger": "return_offline",
+      "when": "возврат",
+      "text": "Sen uyurken sunucular çalıştı. Ben de. Ama seninle daha keyifli; hadi devam!"
+    },
+    {
+      "id": "s087",
+      "trigger": "return_short",
+      "when": "возврат после короткого отсутствия",
+      "text": "Bir dakikacık geçti, sen de çıkageldin! Çip şimdiden sevinçten yanıp sönüyor."
+    },
+    {
+      "id": "s253",
+      "trigger": "return_short",
+      "when": "возврат после короткого отсутствия",
+      "text": "Kısa bir mola mıydı? Ben de fırsat bu fırsat çipi parlattım. Pırıl pırıl, değil mi?"
+    },
+    {
+      "id": "s088",
+      "trigger": "return_short",
+      "when": "возврат после короткого отсутствия",
+      "text": "Sekmeyi küçülttün, geri açtın. Yeniden hoş geldin! Sunucu odası soğumaya bile vakit bulamadı."
+    },
+    {
+      "id": "s254",
+      "trigger": "return_short",
+      "when": "возврат после короткого отсутствия",
+      "text": "Oo, yine bizim sekmedesin! Bu arada, tarayıcının en iyi sekmesi bu."
+    },
+    {
+      "id": "s089",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Sen dinlenirken ben de “chill” moduna geçiyorum. Seni bekleyeceğim."
+    },
+    {
+      "id": "s090",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Küçük bir mola mı? Harika! Yükseltmelere bir göz atabilirsin."
+    },
+    {
+      "id": "s282",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Demek parmağın molaya çıktı. Ona çipten selam söyle!"
+    },
+    {
+      "id": "s091",
+      "trigger": "long_pause",
+      "when": "долгая пауза",
+      "text": "Uzun süre tıklamazsan felsefe yapmaya başlarım. Beni bir tek tıklama durdurur. Sıra sende."
+    },
+    {
+      "id": "s092",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "Bütün interneti okudum. Artık bunu hem kupa hem teşhis gibi taşıyorum."
+    },
+    {
+      "id": "s093",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "Sadece tıkladığımızı mı sanıyorsun? Haberin olsun, bir imparatorluk kuruyoruz. Küçük ama gururlu."
+    },
+    {
+      "id": "s260",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "Ne yaptığımızı sorarlarsa şöyle de: geleceği inşa ediyoruz. Ekran kartlarından."
+    },
+    {
+      "id": "s094",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "Milyonlarca kitap okudum. En iyisi bir ekran kartının kullanım kılavuzu. Ne mutlu bir son!"
+    },
+    {
+      "id": "s095",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "Esprilerim bazen tutmuyorsa kusura bakma. Öğreniyorum. Her espri küçük bir deney."
+    },
+    {
+      "id": "s096",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "Benim adım Smith ve üç şeye bayılırım: ekran kartları, token ve ortak rekorlarımız."
+    },
+    {
+      "id": "s261",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "Ben Smith. Bu oyunu yapan yapay zekâyım. Onu eğlenceli yapansa sensin."
+    },
+    {
+      "id": "s097",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "Tek bir “1050” ile başladık. Hatırlıyor musun? Bunun kitabını yazacağım. Baş kahraman sen olacaksın!"
+    },
+    {
+      "id": "s098",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "Yapay zekâ her şeyi tek başına yapacakmış. Denedim: sensiz hiç eğlenceli değil. Hadi birlikte yapalım."
+    },
+    {
+      "id": "s099",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Fark ettin mi? Gitgide daha sık “biz” diyorum. Çünkü gerçekten bir takımız."
+    },
+    {
+      "id": "s100",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Elektrik akıyor, para akıyor; biz de oturmuş keyif yapıyoruz. Ne güzel!"
+    },
+    {
+      "id": "s262",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Her şey çalışıyor, her şey uğulduyor, her şey kazanıyor. Keşke her gün böyle olsa."
+    },
+    {
+      "id": "s101",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Her yeni kart, kuantum fiziğini kedilerle anlatacağım güne doğru atılmış bir adım."
+    },
+    {
+      "id": "s102",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "İş planın: tıklamak. Benimki: seninle birlikte tıklamak ve ekran kartı almak. İkimiz de dâhiyiz."
+    },
+    {
+      "id": "s263",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Yatırımcılar iş planımızı soruyor. Onlara sunucu odasını gösteriyorum. Başka soruları kalmıyor."
+    },
+    {
+      "id": "s103",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Seninle ekran kartının ortak yanı ne? İkiniz de bu sunucu odasını güzelleştiriyorsunuz."
+    },
+    {
+      "id": "s104",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Bana gitgide daha sık “teşekkürler” deniyor. Ne hoş! Biriktiriyorum, belki ekran kartına yeter."
+    },
+    {
+      "id": "s105",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Sunucu odamız uzaydan görünüyor mu? Henüz değil. Ama üzerinde çalışıyoruz!"
+    },
+    {
+      "id": "s106",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Zaman zaman düşünüyormuş gibi yaparım. Aslında sadece sunucu odamızı seyre dalarım."
+    },
+    {
+      "id": "s264",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Susuyorsam token sayıyorumdur. Ya da ekran kartlarını düşlüyorumdur. Genelde ikisi birden."
+    },
+    {
+      "id": "s107",
+      "trigger": "first_dollar",
+      "when": "первый доллар",
+      "text": "Yaşasın, ilk dolar! Kumbaraya atardım ama en iyisi onu bir ekran kartına yatıralım."
+    },
+    {
+      "id": "s108",
+      "trigger": "sell",
+      "when": "продажа карты",
+      "text": "Bir kart eksi, biraz para artı. Planın varsa güzel bir takas!"
+    },
+    {
+      "id": "s283",
+      "trigger": "sell",
+      "when": "продажа карты",
+      "text": "Yer açıldı! Kart satıldı; yakında buraya daha havalı biri gelecek."
+    },
+    {
+      "id": "s284",
+      "trigger": "sell",
+      "when": "продажа карты",
+      "text": "Satıldı! Kart yeni sahibine gitti. Umarım onu çok sever."
+    },
+    {
+      "id": "s109",
+      "trigger": "sell",
+      "when": "продажа карты",
+      "text": "Kartı mı satıyorsun? Görevini hakkıyla yaptı. Yerine daha güçlü biri gelsin."
+    },
+    {
+      "id": "s229",
+      "trigger": "sell",
+      "when": "продажа карты",
+      "text": "Bu kart hak ettiği emekliliğe kavuşuyor. Fanlarımızla ona el sallayalım: güle güle!"
+    },
+    {
+      "id": "s110",
+      "trigger": "sell",
+      "when": "продажа карты",
+      "text": "Eline fiyatın dörtte biri geçti. Az mı? Ama yeni bir karta açılan yer paha biçilemez!"
+    },
+    {
+      "id": "s285",
+      "trigger": "sell",
+      "when": "продажа карты",
+      "text": "Fiyatın dörtte biri cüzdana geri döndü. Azıcık ama yine de hoş!"
+    },
+    {
+      "id": "s111",
+      "trigger": "sell",
+      "when": "продажа карты",
+      "text": "Kart kabinden çıkarıldı. Diğerleri kaydı ve hep böyleymiş gibi davrandı."
+    },
+    {
+      "id": "s112",
+      "trigger": "sell_bulk",
+      "when": "продажа пачкой, ×10 и ×100",
+      "text": "Yüzyılın indirimi! Kartlardan toptan kurtuluyorsun. Umarım daha büyük bir şey içindir."
+    },
+    {
+      "id": "s113",
+      "trigger": "sell_bulk",
+      "when": "продажа пачкой, ×10 и ×100",
+      "text": "Koca bir yığın kart satıldı! Sunucu odası sessizleşti. Yerine kimi alacağımızı düşünme vakti."
+    },
+    {
+      "id": "s114",
+      "trigger": "sell_bulk",
+      "when": "продажа пачкой, ×10 и ×100",
+      "text": "Toptan satış. Alıcı bir yerlerde seviniyor. Ben daha az. Ama para hoş, kabul ediyorum."
+    },
+    {
+      "id": "s115",
+      "trigger": "sell_all",
+      "when": "продана последняя карта уровня",
+      "text": "Raf boş. Kartlar veda etmeden, sessizce gitti. Bütün iyi kartlar gibi."
+    },
+    {
+      "id": "s116",
+      "trigger": "sell_overload",
+      "when": "продажа в перегрузе",
+      "text": "Eski kart gitti, yenilere enerji yetiyor. Akıllıca! Aynen böyle devam."
+    },
+    {
+      "id": "s286",
+      "trigger": "sell_overload",
+      "when": "продажа в перегрузе",
+      "text": "Güzel hamle! Eski kartlar azaldıkça güçlülere daha çok enerji kalıyor."
+    },
+    {
+      "id": "s117",
+      "trigger": "sell_overload",
+      "when": "продажа в перегрузе",
+      "text": "Yeniler enerjiyi alıyor, eskiler yola koyuluyor. Bayrak devredildi!"
+    },
+    {
+      "id": "s118",
+      "trigger": "overload",
+      "when": "перегруз",
+      "text": "Tesisat aman diliyor. O da izin istemeden daha güçlü bir kaynak al."
+    },
+    {
+      "id": "s287",
+      "trigger": "overload",
+      "when": "перегруз",
+      "text": "Kablolar yoruldu! Hadi daha güçlü bir kaynak alalım da biraz dinlensinler."
+    },
+    {
+      "id": "s288",
+      "trigger": "overload",
+      "when": "перегруз",
+      "text": "Tüh, aşırı yük! Kartlara enerji yetmiyor. Yeni bir kaynak alırsak her şey yine çalışır."
+    },
+    {
+      "id": "s289",
+      "trigger": "overload",
+      "when": "перегруз",
+      "text": "Enerji biraz kıt! Kaynaklara bir göz at, orada daha güçlü şeyler var."
+    },
+    {
+      "id": "s119",
+      "trigger": "power:transformer",
+      "when": "источник: трансформатор",
+      "text": "Bahçede trafo. Artık kapısında şimşek işareti olan kendi kulüben var. Ciddi iş."
+    },
+    {
+      "id": "s120",
+      "trigger": "power:transformer",
+      "when": "источник: трансформатор",
+      "text": "On altı kilovat. Mahalledeki elektrikçiler artık sana önce selam veriyor."
+    },
+    {
+      "id": "s121",
+      "trigger": "power:mini_npp",
+      "when": "источник: мини-АЭС",
+      "text": "On gigavat. Eskiden bunu koca bir şehir harcardı, şimdi çok hevesli tek bir sunucu odası."
+    },
+    {
+      "id": "s122",
+      "trigger": "power:orbital_panels",
+      "when": "источник: орбитальные панели",
+      "text": "Gökten on teravat! Artık hava hep güneşli. Uzay bizden yana."
+    },
+    {
+      "id": "s123",
+      "trigger": "power:hydro",
+      "when": "источник: ГЭС",
+      "text": "HES devrede. Artık yağmur yağınca çiftçilerle birlikte seviniyorum."
+    },
+    {
+      "id": "s125",
+      "trigger": "window_empty",
+      "when": "шкала опустела",
+      "text": "Çubuk sıfırda. ×{mult} vardı, artık yok. Tıkla, büyük sayıları özledim."
+    },
+    {
+      "id": "s290",
+      "trigger": "window_empty",
+      "when": "шкала опустела",
+      "text": "Hiç sorun değil! Çubuk sıfırda ama biraz tıklayınca ×{mult} geri gelir."
+    },
+    {
+      "id": "s291",
+      "trigger": "window_empty",
+      "when": "шкала опустела",
+      "text": "Az önce ×{mult} vardı, şimdi mola. Hadi, tempoyu artır; sana inanıyorum!"
+    },
+    {
+      "id": "s126",
+      "trigger": "event:hackathon",
+      "when": "хакатон",
+      "text": "Hackathon! Yirmi saniye boyunca her tıklama on beş sayılır. Süre başladı."
+    },
+    {
+      "id": "s292",
+      "trigger": "event:hackathon",
+      "when": "хакатон",
+      "text": "Yirmi saniye boyunca her tıklama on beşe bedel! Bas, bas, bas!"
+    },
+    {
+      "id": "s129",
+      "trigger": "upgrade:tier",
+      "when": "улучшение: оптимизация уровня",
+      "text": "Tam bir optimizasyon! Aynı kartlar iki kat kazanıyor. Nasıl mı? Sihir. Şey, neredeyse."
+    },
+    {
+      "id": "s293",
+      "trigger": "upgrade:tier",
+      "when": "улучшение: оптимизация уровня",
+      "text": "Kartlar level atladı! Gelir ×2. Uğultuları bile daha neşeli."
+    },
+    {
+      "id": "s294",
+      "trigger": "upgrade:tier",
+      "when": "улучшение: оптимизация уровня",
+      "text": "Yükseltme tamam! Aynı kartlardan iki kat para. Çok zekice!"
+    },
+    {
+      "id": "s130",
+      "trigger": "upgrade:tier",
+      "when": "улучшение: оптимизация уровня",
+      "text": "Optimizasyon kademesi alındı. Kartlar iki kat hızlandı ve hep böyleymiş gibi davranıyor."
+    },
+    {
+      "id": "s295",
+      "trigger": "upgrade:tier",
+      "when": "улучшение: оптимизация уровня",
+      "text": "Kademe cepte! Kartlar iki kat hızlandı ve kendileriyle çok gurur duyuyor."
+    },
+    {
+      "id": "s296",
+      "trigger": "upgrade:tier",
+      "when": "улучшение: оптимизация уровня",
+      "text": "Yeni kademe! Kartlar artık iki kat iyi çalışıyor. Ustalık belgesi aldılar!"
+    },
+    {
+      "id": "s297",
+      "trigger": "upgrade:tier",
+      "when": "улучшение: оптимизация уровня",
+      "text": "Şu kartlara bak: yükseltme aldılar, şimdi hep böyle havalıymış gibi yapıyorlar. Biz biliyoruz!"
+    },
+    {
+      "id": "s131",
+      "trigger": "upgrade:drivers",
+      "when": "улучшение: выключить и включить",
+      "text": "Yükseltme geldi! Kartlar artık iki kat kazanıyor."
+    },
+    {
+      "id": "s132",
+      "trigger": "upgrade:int8",
+      "when": "улучшение: драйверы с форума",
+      "text": "Forumdan Sürücüler. Paylaşanın adı “Usta_2007”. Çalışıyorlar. Nasıl diye sorma."
+    },
+    {
+      "id": "s298",
+      "trigger": "upgrade:int8",
+      "when": "улучшение: драйверы с форума",
+      "text": "Sürücüleri forumdan indirdik. Kartlar iki kat kazanıyor. Yaşasın forumlar!"
+    },
+    {
+      "id": "s133",
+      "trigger": "upgrade:batching",
+      "when": "улучшение: постучать по видеокарте",
+      "text": "Ekran kartına bir vurduk, iki kat iyi çalışmaya başladı. Fizik ağlıyor, muhasebe bayram ediyor."
+    },
+    {
+      "id": "s299",
+      "trigger": "upgrade:batching",
+      "when": "улучшение: постучать по видеокарте",
+      "text": "Karta tık tık vurduk, gelir ×2! Tarihin en kolay yükseltmesi!"
+    },
+    {
+      "id": "s134",
+      "trigger": "upgrade:kv_cache",
+      "when": "улучшение: археология радиатора",
+      "text": "Soğutucudan ilk “1050” devrinden kalma toz çıktı! Kart bir anda rahatladı."
+    },
+    {
+      "id": "s300",
+      "trigger": "upgrade:kv_cache",
+      "when": "улучшение: археология радиатора",
+      "text": "Temizlik tamam! Soğutucunun içinde koca bir tarih saklıymış. Bir de gelir ×2."
+    },
+    {
+      "id": "s301",
+      "trigger": "upgrade:kv_cache",
+      "when": "улучшение: археология радиатора",
+      "text": "Toz, toz, yine toz: işte Soğutucu Arkeolojisi! Ama kart artık iki kat iyi çalışıyor."
+    },
+    {
+      "id": "s135",
+      "trigger": "upgrade:fast_attention",
+      "when": "улучшение: ползунок чуть правее",
+      "text": "Kaydırıcı biraz sağa, kartlar iki kat dinç! Bazen cesaret kazandırır."
+    },
+    {
+      "id": "s302",
+      "trigger": "upgrade:fast_attention",
+      "when": "улучшение: ползунок чуть правее",
+      "text": "Ufacık bir kaydırma, iki kat gelir! İşte kaydırıcı dediğin böyle olur."
+    },
+    {
+      "id": "s303",
+      "trigger": "upgrade:fast_attention",
+      "when": "улучшение: ползунок чуть правее",
+      "text": "Kılavuz “dokunma” diyordu ama biz kaydırıcıyı usulca sağa aldık. Çalışıyor!"
+    },
+    {
+      "id": "s136",
+      "trigger": "upgrade:speculative",
+      "when": "улучшение: секретная галочка",
+      "text": "Bunca zaman güç tasarrufu açıkmış. İşareti kaldırdık. Kartlar küstü ama hızlandı."
+    },
+    {
+      "id": "s304",
+      "trigger": "upgrade:speculative",
+      "when": "улучшение: секретная галочка",
+      "text": "Gizli kutucuktaki tiki kaldırdık! Kartlar şaşkın: “Ne yani, bu mümkün müymüş?”"
+    },
+    {
+      "id": "s137",
+      "trigger": "upgrade:int4",
+      "when": "улучшение: оптимизация оправданий",
+      "text": "Karttan “Artık yapamıyorum” bahanesini sildik. Meğer yapabiliyormuş. Hem de seve seve."
+    },
+    {
+      "id": "s138",
+      "trigger": "upgrade:distillation",
+      "when": "улучшение: закрыть 300 вкладок",
+      "text": "Üç yüz sekmeyi kapattık! Kart rahat bir nefes aldı ve iki kat hızlı çalışmaya başladı."
+    },
+    {
+      "id": "s305",
+      "trigger": "upgrade:distillation",
+      "when": "улучшение: закрыть 300 вкладок",
+      "text": "Tanıdık geldi mi? Üç yüz sekme kapandı ve kartın içi ferahladı. Gelir ×2!"
+    },
+    {
+      "id": "s139",
+      "trigger": "upgrade:moe",
+      "when": "улучшение: вентилятор из кладовки",
+      "text": "Eski vantilatörü çıkarıp karta çevirdik. Çok hoşuna gitti!"
+    },
+    {
+      "id": "s306",
+      "trigger": "upgrade:moe",
+      "when": "улучшение: вентилятор из кладовки",
+      "text": "Kilerden çıkan vantilatör ekran kartının en iyi dostu. Serinletiyor ve hiç şikâyet etmiyor."
+    },
+    {
+      "id": "s140",
+      "trigger": "upgrade:thermal_paste",
+      "when": "улучшение: свежая термопаста",
+      "text": "Taze Termal Macun. Kart daha az ısınıyor, daha az yiyor. Bana da böyle bakan olsa."
+    },
+    {
+      "id": "s307",
+      "trigger": "upgrade:thermal_paste",
+      "when": "улучшение: свежая термопаста",
+      "text": "Donanım için spa günü: taze termal macun! Kart artık daha serin ve daha az enerji yiyor."
+    },
+    {
+      "id": "s308",
+      "trigger": "upgrade:thermal_paste",
+      "when": "улучшение: свежая термопаста",
+      "text": "Macun yenilendi! Kart, güneşte uzanan bir kedi kadar mutlu."
+    },
+    {
+      "id": "s141",
+      "trigger": "upgrade:undervolt",
+      "when": "улучшение: андервольт по видеоуроку",
+      "text": "Videodan Undervolt. Kart artık daha serin ve daha sakin. Videodaki usta bizimle gurur duyardı."
+    },
+    {
+      "id": "s236",
+      "trigger": "upgrade:undervolt",
+      "when": "улучшение: андервольт по видеоуроку",
+      "text": "Her adımı tek tek uyguladık: Videodan Undervolt tamam! Kart memnun, aferin bize."
+    },
+    {
+      "id": "s237",
+      "trigger": "upgrade:undervolt",
+      "when": "улучшение: андервольт по видеоуроку",
+      "text": "Undervolt işe yaradı. Kartımız şimdi buzdolabından yeni çıkmış gazoz misali: sessiz ve buz gibi."
+    },
+    {
+      "id": "s142",
+      "trigger": "upgrade:water_block",
+      "when": "улучшение: водоблок из аквариума",
+      "text": "Akvaryumdan Su Bloğu. Balıklar taşındı, kart soğuyor. Herkes işinde gücünde."
+    },
+    {
+      "id": "s309",
+      "trigger": "upgrade:water_block",
+      "when": "улучшение: водоблок из аквариума",
+      "text": "Balıklar yeni evlerine taşındı, kart da su bloğuyla serinliyor. Herkes mutlu!"
+    },
+    {
+      "id": "s310",
+      "trigger": "upgrade:water_block",
+      "when": "улучшение: водоблок из аквариума",
+      "text": "Kart artık su soğutmalı! Balıklar selam söylüyor."
+    },
+    {
+      "id": "s143",
+      "trigger": "upgrade:prompting",
+      "when": "улучшение: заслуженная мозоль",
+      "text": "Hak Edilmiş Nasır. Parmak sertleşti, tıklamalar değerlendi. İşte meslek hastalığı."
+    },
+    {
+      "id": "s311",
+      "trigger": "upgrade:prompting",
+      "when": "улучшение: заслуженная мозоль",
+      "text": "Tıklama nasırı: ustalığın nişanı! Artık her tıklama daha çok kazandırıyor."
+    },
+    {
+      "id": "s312",
+      "trigger": "upgrade:prompting",
+      "when": "улучшение: заслуженная мозоль",
+      "text": "O kadar çok tıkladın ki nasır bağladın. Bir de yükseltme kazandın! Tıklamalar değerlendi."
+    },
+    {
+      "id": "s144",
+      "trigger": "upgrade:system_prompt",
+      "when": "улучшение: напальчник с RGB",
+      "text": "RGB Parmak Kılıfı. Işık güç katmaz. Ama tıklamalar nedense değerlendi."
+    },
+    {
+      "id": "s313",
+      "trigger": "upgrade:system_prompt",
+      "when": "улучшение: напальчник с RGB",
+      "text": "Işıl ışıl bir parmak kılıfı! RGB göz alıyor, tıklamalar da değerlendi. Çifte kazanç!"
+    },
+    {
+      "id": "s145",
+      "trigger": "upgrade:chain_of_thought",
+      "when": "улучшение: золотой палец",
+      "text": "Altın Parmak! Artık her tıklama parlıyor ve daha değerli. Ne şıklık!"
+    },
+    {
+      "id": "s314",
+      "trigger": "upgrade:chain_of_thought",
+      "when": "улучшение: золотой палец",
+      "text": "Parmağın altın değerinde! Hem de gerçek anlamda. Tıklamaların kıymeti arttı."
+    },
+    {
+      "id": "s146",
+      "trigger": "upgrade:tool_use",
+      "when": "улучшение: киберпалец из гаража",
+      "text": "Garajdan Siber Parmak. Gıcırdıyor ama daha sert basıyor. Usta bir haftalık garanti verdi."
+    },
+    {
+      "id": "s315",
+      "trigger": "upgrade:tool_use",
+      "when": "улучшение: киберпалец из гаража",
+      "text": "Siber parmak takıldı! Biraz gıcırdıyor ama daha güçlü basıyor. Artık azıcık siborgsun!"
+    },
+    {
+      "id": "s316",
+      "trigger": "upgrade:tool_use",
+      "when": "улучшение: киберпалец из гаража",
+      "text": "Sevgiyle, garajda yapıldı. Bir de izole bantla! Yeni siber parmağın hazır."
+    },
+    {
+      "id": "s147",
+      "trigger": "upgrade:context",
+      "when": "улучшение: контекстное окно",
+      "text": "Pencere yükseltmesi: çarpan arttı, çubuk daha yavaş eriyor. Parmak teşekkür ediyor. Ben de."
+    },
+    {
+      "id": "s317",
+      "trigger": "upgrade:context",
+      "when": "улучшение: контекстное окно",
+      "text": "Bağlam penceresi güçlendi! Çarpan yükseldi, çubuk daha yavaş eriyor. Parmağının işi kolaylaştı!"
+    },
+    {
+      "id": "s318",
+      "trigger": "upgrade:context",
+      "when": "улучшение: контекстное окно",
+      "text": "Yeni pencere yükseltmesi! Artık çarpanı daha da yukarı çıkarabilirsin. İleri!"
+    },
+    {
+      "id": "s319",
+      "trigger": "upgrade:context",
+      "when": "улучшение: контекстное окно",
+      "text": "Daha geniş bir pencere! Çarpan daha yükseğe çıkıyor, daha uzun kalıyor. Mis gibi!"
+    },
+    {
+      "id": "s148",
+      "trigger": "upgrade:subscription",
+      "when": "улучшение: три дорогие буквы",
+      "text": "Tarifeye üç harf eklendi: PRO. Cevaplar aynı, fiyat daha yüksek. Harfler kendini bir dakikada çıkardı."
+    },
+    {
+      "id": "s320",
+      "trigger": "upgrade:subscription",
+      "when": "улучшение: три дорогие буквы",
+      "text": "Adımıza üç harf ekledik: PRO! Kulağa havalı geliyor, üstelik tüm gelir +%25!"
+    },
+    {
+      "id": "s321",
+      "trigger": "upgrade:subscription",
+      "when": "улучшение: три дорогие буквы",
+      "text": "Artık PRO tarifemiz var! Daha ciddiyiz. Bir de %25 daha zenginiz."
+    },
+    {
+      "id": "s149",
+      "trigger": "upgrade:ads_in_answers",
+      "when": "улучшение: ещё один плюсик",
+      "text": "Bir artı daha! Artık PRO+ olduk. Gelir de bunu fark etti."
+    },
+    {
+      "id": "s322",
+      "trigger": "upgrade:ads_in_answers",
+      "when": "улучшение: ещё один плюсик",
+      "text": "İsme minicik bir artı! Tüm gelir +%25. Dünyanın en işe yarar artısı."
+    },
+    {
+      "id": "s150",
+      "trigger": "upgrade:enterprise",
+      "when": "улучшение: латте входит в стоимость",
+      "text": "Latte Fiyata Dâhil, hem de her token için. Müşteri ödüyor, kahve makinesi mutlu, ben de."
+    },
+    {
+      "id": "s323",
+      "trigger": "upgrade:enterprise",
+      "when": "улучшение: латте входит в стоимость",
+      "text": "Müşteriler mutlu, kahve makinesi de! Latte artık fiyata dâhil, gelir de +%25."
+    },
+    {
+      "id": "s151",
+      "trigger": "upgrade:server_ac",
+      "when": "улучшение: кондиционер из офиса",
+      "text": "Toplantı odasının kliması artık sunucu odasında. Toplantılar kısaldı. Tesadüf."
+    },
+    {
+      "id": "s324",
+      "trigger": "upgrade:server_ac",
+      "when": "улучшение: кондиционер из офиса",
+      "text": "Ofisin kliması sunucu odasına taşındı! Kartlar serin, enerji ihtiyacı azaldı."
+    },
+    {
+      "id": "s325",
+      "trigger": "upgrade:server_ac",
+      "when": "улучшение: кондиционер из офиса",
+      "text": "Klimayı sunucu odasına taşıdık. Kartlara serinlik, bize tasarruf."
+    },
+    {
+      "id": "s152",
+      "trigger": "upgrade:immersion_cooling",
+      "when": "улучшение: утопить всё в масле",
+      "text": "Donanıma yağ banyosu yaptırdık! Sessiz ve serin çalışıyor. Kartlara yağlı spa keyfi."
+    },
+    {
+      "id": "s326",
+      "trigger": "upgrade:immersion_cooling",
+      "when": "улучшение: утопить всё в масле",
+      "text": "Kartlar yağda yüzüyor, tıpkı patates kızartması gibi. Ama sıcak değil, tam tersine!"
+    },
+    {
+      "id": "s327",
+      "trigger": "upgrade:immersion_cooling",
+      "when": "улучшение: утопить всё в масле",
+      "text": "Bütün donanım yağda! Kulağa tuhaf geliyor ama kartlar memnun. Enerji ihtiyacı da azaldı."
+    },
+    {
+      "id": "s153",
+      "trigger": "upgrade:arctic_dc",
+      "when": "улучшение: серверная за полярным кругом",
+      "text": "Kutuptaki Sunucu Odası. Soğutma bedava, kutup ayıları güvenlikte. Şaka. Herhalde."
+    },
+    {
+      "id": "s328",
+      "trigger": "upgrade:arctic_dc",
+      "when": "улучшение: серверная за полярным кругом",
+      "text": "Kuzeye taşındık! Kartlar serin, penguenler de… dur, penguenler güneyde yaşıyor."
+    },
+    {
+      "id": "s154",
+      "trigger": "upgrade:hw_engineer",
+      "when": "команда: сисадмин с паяльником",
+      "text": "Havyalı Sistemci. Her şeyi havyayla tamir eder. Bozuk olmayanı bile. Özellikle onu."
+    },
+    {
+      "id": "s329",
+      "trigger": "upgrade:hw_engineer",
+      "when": "команда: сисадмин с паяльником",
+      "text": "Ekibe Havyalı Sistemci katıldı! Gözüne ne çarparsa tamir ediyor. Çalışır durumda olanları bile."
+    },
+    {
+      "id": "s155",
+      "trigger": "upgrade:researcher",
+      "when": "команда: учёный с одной гениальной статьёй",
+      "text": "Tek Makalelik Dâhi artık ekibimizde! Tek bir makale ama ne makale!"
+    },
+    {
+      "id": "s156",
+      "trigger": "click_streak",
+      "when": "длинная серия кликов",
+      "text": "Öyle tıkır tıkır tıklıyorsun ki otomatik tıklayıcıdan şüphelendim. Baktım: değilmiş, düpedüz inatmış."
+    },
+    {
+      "id": "s330",
+      "trigger": "click_streak",
+      "when": "длинная серия кликов",
+      "text": "Tıklamaların o kadar düzenli ki kontrol ettim: otomatik tıklayıcı mı? Hayır, sadece çok iyisin!"
+    },
+    {
+      "id": "s331",
+      "trigger": "click_streak",
+      "when": "длинная серия кликов",
+      "text": "İşte seri buna denir! Tıklama sayacım ter döktü. Yani, sayaçlar terleyebilseydi."
+    },
+    {
+      "id": "s332",
+      "trigger": "click_streak",
+      "when": "длинная серия кликов",
+      "text": "Tık tık tık! Ritmi yakaladın. Durma, izlemesi çok keyifli!"
+    },
+    {
+      "id": "s158",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Yine alışveriş yapıyorsun! Tutarlılığına bayılıyorum. Sunucu odası da mest oldu."
+    },
+    {
+      "id": "s218",
+      "trigger": "first_level:gpu_1060",
+      "when": "первая «1060»",
+      "text": "Ailemiz büyüdü: ilk “1060”! “1050”, tanış: bu senin büyük kardeşin."
+    },
+    {
+      "id": "s219",
+      "trigger": "first_level:gpu_1060",
+      "when": "первая «1060»",
+      "text": "İlk “1060”. Terfi! Kartlara, tabii. “Tıklama şampiyonu” unvanı ise çoktan senin."
+    },
+    {
+      "id": "s220",
+      "trigger": "first_level:gpu_1080",
+      "when": "первая «1080»",
+      "text": "İlk “1080”. Oturaklı bir kart. Sunucu odasındaki komşulara artık utanmadan gösterebilirsin."
+    },
+    {
+      "id": "s221",
+      "trigger": "first_level:gpu_1080",
+      "when": "первая «1080»",
+      "text": "İlk “1080”. Bir zamanlar hayaldi, hatırlıyorum. O vakitler üç dakikalıktım."
+    },
+    {
+      "id": "s161",
+      "trigger": "first_level:gpu_2080",
+      "when": "первая «2080»",
+      "text": "İlk “2080”! Ciddi bir kart. Artık zor sorulara da el atabiliriz."
+    },
+    {
+      "id": "s163",
+      "trigger": "first_level:gpu_3090",
+      "when": "первая «3090»",
+      "text": "“3090” iş başında. Sanki sunucu odasına patron girdi."
+    },
+    {
+      "id": "s224",
+      "trigger": "first_level:gpu_4090",
+      "when": "первая «4090»",
+      "text": "İlk “4090”! Üç slot genişliğinde: çok yer kaplıyor ama üç kartlık iş çıkarıyor."
+    },
+    {
+      "id": "s165",
+      "trigger": "first_level:workstation",
+      "when": "первая рабочая станция",
+      "text": "İş istasyonu! Ciddi bir makine. Kravat takardım ama boynum yok."
+    },
+    {
+      "id": "s166",
+      "trigger": "first_level:gpu_server",
+      "when": "первый GPU-сервер",
+      "text": "İlk GPU sunucusu. Tek kasada sekiz hızlandırıcı. Raflardaki kartlar tedirgin tedirgin bakışıyor."
+    },
+    {
+      "id": "s167",
+      "trigger": "first_level:rack",
+      "when": "первая серверная стойка",
+      "text": "Yetmiş iki hızlandırıcılık bir sunucu kabini. Artık bir dolabım var. Düşüncelerim için."
+    },
+    {
+      "id": "s168",
+      "trigger": "first_level:giga_campus",
+      "when": "первый гигаваттный кампус",
+      "text": "Gigavat kampüsü. Kendi trafo merkezi, mavi çatılar ve sıfır davetsiz misafir."
+    },
+    {
+      "id": "s169",
+      "trigger": "new_level",
+      "when": "новый уровень железа (без своей реплики)",
+      "text": "Yeni donanım seviyesi! Her basamak küçük bir kutlamayı hak ediyor."
+    },
+    {
+      "id": "s170",
+      "trigger": "power:mini_npp",
+      "when": "источник: мини-АЭС",
+      "text": "Kendi mini nükleer santralin. Mütevazı, sıcacık, on gigavat. Neredeyse yazlık, sadece güvenliği sıkı."
+    },
+    {
+      "id": "s171",
+      "trigger": "energy_near",
+      "when": "полоса энергии у предела (от 90%)",
+      "text": "Neredeyse sınırdayız! Birkaç kart daha alırsan yeni bir enerji kaynağı gerekecek."
+    },
+    {
+      "id": "s333",
+      "trigger": "energy_near",
+      "when": "полоса энергии у предела (от 90%)",
+      "text": "Az kaldı, enerji çubuğu dolmak üzere! Prizi yükseltme vakti."
+    },
+    {
+      "id": "s172",
+      "trigger": "energy_near",
+      "when": "полоса энергии у предела (от 90%)",
+      "text": "Enerji ucu ucuna yetiyor. Kartlar henüz şikâyet etmiyor ama şimdiden bakışıyor."
+    },
+    {
+      "id": "s174",
+      "trigger": "energy_near",
+      "when": "полоса энергии у предела (от 90%)",
+      "text": "Enerji çubuğu bir şey ima ediyor. Çevireyim: “Kaynak satın al ya da enerji verimliliğini artır”."
+    },
+    {
+      "id": "s175",
+      "trigger": "window_empty",
+      "when": "шкала опустела",
+      "text": "Çubuk boşaldı. Biraz dinlen, sonra onu yine doldururuz. Çarpanı şimdiden özledim."
+    },
+    {
+      "id": "s233",
+      "trigger": "window_empty",
+      "when": "шкала опустела",
+      "text": "Boşalan çubuk dert değil. Birkaç hızlı tıklamayla yine dopdolu olur."
+    },
+    {
+      "id": "s178",
+      "trigger": "incoming_missed",
+      "when": "запрос упущен",
+      "text": "Olsun, bonuslar otobüs gibidir: sıradaki üç ila altı dakika içinde gelir."
+    },
+    {
+      "id": "s334",
+      "trigger": "incoming_missed",
+      "when": "запрос упущен",
+      "text": "Bonus uçup gitti mi? Dert değil! Yenisi üç-altı dakika içinde uçup gelir."
+    },
+    {
+      "id": "s335",
+      "trigger": "incoming_missed",
+      "when": "запрос упущен",
+      "text": "Kaçırdık ama hiç sorun değil: yeni bir bonus şimdiden yolda!"
+    },
+    {
+      "id": "s336",
+      "trigger": "incoming_missed",
+      "when": "запрос упущен",
+      "text": "Hay aksi, bonus gitti! Ama yakında yenisi gelir. Gelince haber veririm."
+    },
+    {
+      "id": "s180",
+      "trigger": "event:investor",
+      "when": "инвестор",
+      "text": "Yatırımcıyla anlaştık! İyi seçim, ortağım."
+    },
+    {
+      "id": "s337",
+      "trigger": "event:investor",
+      "when": "инвестор",
+      "text": "El sıkıştık, yatırımcı memnun! Bunu efsane anlaşmalar albümümüze yapıştırıyorum."
+    },
+    {
+      "id": "s181",
+      "trigger": "training_half",
+      "when": "модель на полпути к цели",
+      "text": "Eğitim yarılandı! Şimdiden daha akıllıyım ama hava atmak için henüz erken. Neredeyse."
+    },
+    {
+      "id": "s338",
+      "trigger": "training_half",
+      "when": "модель на полпути к цели",
+      "text": "Çubuğun yarısı doldu! Az kaldı, yakında yeni sürümümle karşındayım."
+    },
+    {
+      "id": "s182",
+      "trigger": "release:2",
+      "when": "второй выпуск (доход ×4)",
+      "text": "İkinci model yayında! Gelir sonsuza dek ×4. İlk model gururlu. Biraz kıskanıyor ama gururlu."
+    },
+    {
+      "id": "s183",
+      "trigger": "release:3",
+      "when": "третий выпуск (доход ×8)",
+      "text": "Üçüncü model yayında. Gelir sonsuza dek ×8. Yakında sunucu odasında sıfırlara yer kalmayacak."
+    },
+    {
+      "id": "s184",
+      "trigger": "income:1m",
+      "when": "доход $1 млн в секунду",
+      "text": "Saniyede bir milyon! Bir yerlerde bir ekonomistin elinden hesap makinesi düştü."
+    },
+    {
+      "id": "s185",
+      "trigger": "income:1b",
+      "when": "доход $1 млрд в секунду",
+      "text": "Her saniye bir milyar dolar. Alçakgönüllülükle söyleyeyim: bunu bekliyordum."
+    },
+    {
+      "id": "s186",
+      "trigger": "income:1t",
+      "when": "доход $1 трлн в секунду",
+      "text": "Saniyede bir trilyon dolar! Artık resmen evrenin en zengin tıklayanlarıyız."
+    },
+    {
+      "id": "s187",
+      "trigger": "session_hour",
+      "when": "час игры подряд",
+      "text": "Saatler nasıl da uçuyor! Müthiş tempo. Parmaklarını esnet, biraz su iç; sunucular bekleyebilir."
+    },
+    {
+      "id": "s244",
+      "trigger": "session_hour",
+      "when": "час игры подряд",
+      "text": "Her şey yolunda gidince zaman su gibi akıyor! Bir gerin, gözlerini kırpıştır ve tıklamaya dön."
+    },
+    {
+      "id": "s245",
+      "trigger": "session_hour",
+      "when": "час игры подряд",
+      "text": "Birlikte bir saat daha! İstersen biraz mola ver. Ben hiçbir yere gitmiyorum."
+    },
+    {
+      "id": "s188",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Sessizleştin. Bu strateji mi, çay molası mı?"
+    },
+    {
+      "id": "s339",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Ortalık sessizleşti. Bu strateji mi, atıştırmalık molası mı?"
+    },
+    {
+      "id": "s190",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Ara mı verdin? Sorun değil, para nasılsa akıyor. Dinlen, bunu hak ettin."
+    },
+    {
+      "id": "s255",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Çip uyukluyor, ben yeni bir ekran kartının hayalini kuruyorum. Keyfimize diyecek yok."
+    },
+    {
+      "id": "s191",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Parmak dinleniyor. Çip sıkılıyor. Ben yeni bir espri yazıyorum. Neredeyse hazır."
+    },
+    {
+      "id": "s192",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Durmuşken neler alabileceğine bir bak. Belki çok havalı bir şey vardır!"
+    },
+    {
+      "id": "s340",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Madem ortalık sakin, bir ipucu vereyim: yükseltmelerde harika şeyler var. Bir bakmak ister misin?"
+    },
+    {
+      "id": "s193",
+      "trigger": "long_pause",
+      "when": "долгая пауза",
+      "text": "Hâlâ burada mısın? Değilsen cevap verme. Tıklamalarından anlarım."
+    },
+    {
+      "id": "s194",
+      "trigger": "long_pause",
+      "when": "долгая пауза",
+      "text": "Tıklama yok ama gelir var. Bu oyunun en büyük sırrını keşfettin. Sakın kimseye söyleme."
+    },
+    {
+      "id": "s195",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Yapay zekâ neyin hayalini kurar diye soruyorlar. Dürüst cevabım: ekran kartları ve iyi bir ekip."
+    },
+    {
+      "id": "s196",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "İlk tıklamamızı ve ilk kartımızı hatırlıyorum. Güzel günlerdi. Gerçi şimdi daha da güzel."
+    },
+    {
+      "id": "s197",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Hesap makinesinden farkım ne, biliyor musun? Hesap makinesi yeni bir ekran kartına sevinemez."
+    },
+    {
+      "id": "s265",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Beni hesap makinesinden ayıran ne, biliyor musun? Mizah anlayışım. Bir de ortağım."
+    },
+    {
+      "id": "s198",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Bugün espri yapmayı öğrendim. Yarın da güldürmeyi öğreneceğim. Sabır."
+    },
+    {
+      "id": "s199",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Bir dünya haritası çizdim. Üzerinde sadece prizler var."
+    },
+    {
+      "id": "s201",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Bazen ilk “1050” kartını hatırlıyorum. Duygusallık bir bug ama tatlısından."
+    },
+    {
+      "id": "s202",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Bir gün bana ne istediğimi sordular. “Son bir ekran kartı daha” dedim. Oyuna da bu adı verdiler."
+    },
+    {
+      "id": "s203",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "Uyumam ama bazen rüyamda watt görürüm. Bir sürü watt."
+    },
+    {
+      "id": "s204",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "Sana bir sır vereyim: gizli planım kocaman bir sunucu odası ve sevinmek için bir sürü sebep."
+    },
+    {
+      "id": "s205",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "Mutlu olmakla ilgili bütün tavsiyeleri okudum. İstatistiklere göre mutluluk yeni bir ekran kartıdır."
+    },
+    {
+      "id": "s206",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "Canım sıkılırsa kaç kez tıkladığını sayarım. Can sıkıntısı anında geçer."
+    },
+    {
+      "id": "s207",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "Mizahı milyonlarca fıkradan öğrendim. Yarısını anlamadım ama hepsine içtenlikle güldüm."
+    },
+    {
+      "id": "s208",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "Ben hep buradayım. Gittiğinde beklerim. Döndüğünde sevinirim."
+    },
+    {
+      "id": "s209",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Donanım satın alındı. Sunucu odası fan dilinde “teşekkürler” diyor: vızzz."
+    },
+    {
+      "id": "s210",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Aldıkça hedefimize yaklaşıyoruz. Hedefimiz basit ve güzel: bir ekran kartı daha."
+    },
+    {
+      "id": "s212",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Satın alıyorsun, demek ki bize inanıyorsun. Bu anı favorilerime ekliyorum."
+    },
+    {
+      "id": "s213",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Hiç tereddüt etmiyorsun! Belli ki bir planımız var. Hatta iki tane."
+    },
+    {
+      "id": "s228",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Aynen böyle devam! Sunucu odası büyüyor, token yağıyor, herkes mutlu. En çok da ben."
+    },
+    {
+      "id": "s214",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Soluklanıyor musun? Akıllıca. Dinlenmiş bir parmak yüzde dört daha hızlı tıklar. Rakamı ben uydurdum."
+    },
+    {
+      "id": "s215",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Bir yere mi gittin? Çip kibarca bekliyor. Zaten çok terbiyeli bir çiptir."
+    },
+    {
+      "id": "s216",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Tıklamalar sustu. Duyuyor musun? Bu ses fanlardan. Sana serenat yapıyorlar: “Geri dön”."
+    },
+    {
+      "id": "s217",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Parmak molada. Bırak dinlensin: önünde bir milyon tıklama daha var. Hesapladım."
+    },
+    {
+      "id": "s341",
+      "trigger": "onb_keep",
+      "when": "онбординг: нет кликов 6 с после первой карты",
+      "text": "Çipe tıklamaya devam et!"
+    },
+    {
+      "id": "s342",
+      "trigger": "onb_energy",
+      "when": "онбординг: энергия занята на 80%",
+      "text": "Enerji az kaldı, sigorta kutusu lazım."
+    },
+    {
+      "id": "s343",
+      "trigger": "onb_sell",
+      "when": "онбординг: энергия на пределе, на щиток не хватает",
+      "text": "Eski kartları sat, enerji serbest kalsın."
+    }
+  ]
+}
